@@ -138,8 +138,10 @@ function theMetadata(id) {
 
 };
 
+// when input value changes
 function optionChanged(value) { 
 
+    // import json data
     const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json"
 
 
@@ -147,6 +149,7 @@ function optionChanged(value) {
         console.log(data);
 
 
+    // name variable
     names = data.names
 
         // for (let i = 0; i < data.names.length; i++) {
@@ -159,7 +162,7 @@ function optionChanged(value) {
 
     console.log(sample_index)
     
-
+    // distrubte new value to other functions
     barChart(data.samples[sample_index]);
     bubbleChart(data.samples[sample_index]);
     theMetadata(data.metadata[sample_index]);  
