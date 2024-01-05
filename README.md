@@ -40,5 +40,7 @@ Display each key-value pair from the metadata JSON object somewhere on the page.
 
 Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard.
 
+![Alt text](<Screen Shot 2024-01-04 at 9.38.31 PM.png>)
 
+![Alt text](<Screen Shot 2024-01-04 at 9.38.43 PM.png>)
 
